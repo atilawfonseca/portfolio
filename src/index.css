@@ -1,0 +1,22 @@
+:root {
+  --color-bg: #dfe6e9;
+  --color-text-default: #2d3436; 
+  --color-text-hover: #636e72; 
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: "Open Sans", sans-serif;
+}
+#root {
+  background-color: var(--color-bg);
+  color: var(--color-text-default);
+  
+}
+
+.container {
+  max-width: 900px;
+  width: 95%;
+  margin: 0px auto;
+}

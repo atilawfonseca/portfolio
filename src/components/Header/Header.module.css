@@ -1,0 +1,50 @@
+.cabecalho div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hamburguer {
+    display: none;
+}
+.hamburguer span {
+    height: 4px;
+    display: block;
+    width: 32px;
+    margin-bottom: 4px;
+    background-color: var(--color-text-default);
+    border-radius: 4px;
+}
+.cabecalho h1 {
+    font-family: "Playwrite US Trad", cursive;
+    font-optical-sizing: auto;
+    font-size: 1.5em;
+}
+.cabecalho li {
+    list-style: none;
+    margin-left: 1.5em;
+    display: inline;
+    text-transform: uppercase;
+
+}
+
+.cabecalho li a {
+    text-decoration: none;
+    color: var(--color-text-default);
+}
+.cabecalho li a:hover {
+    color: var(--color-text-hover);
+}
+
+
+@media screen and (max-width: 790px) {
+    .displayInline {
+        display: none;
+    }
+    .hamburguer {
+        display: block;
+    }
+    .hamburguer:hover {
+        cursor: pointer;
+    }
+    
+}
