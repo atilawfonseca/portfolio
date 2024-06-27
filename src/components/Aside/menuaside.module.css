@@ -1,0 +1,21 @@
+.aside {
+    background-color: var(--color-bg);
+    width: 95%;
+    position: fixed;
+    right: 0px;
+    
+}
+.aside ul {
+    padding: 1em;
+}
+.aside ul li {
+    list-style: none;
+    margin-top: 1em;
+    text-align: end;
+    text-transform: uppercase;
+}
+.aside ul li a {
+    text-decoration: none;
+    color: var(--color-text-default);
+
+}

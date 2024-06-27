@@ -1,6 +1,12 @@
 import style from './Header.module.css'
 
+
 const Header = () => {
+
+    const hindleAside = () => {
+        console.log('está tudo certo!');
+    }
+
     return(
         <header className={style.cabecalho} >
             <div className='container'>
@@ -15,12 +21,13 @@ const Header = () => {
                         </li>
                     </ul>
                 </nav>
-                <nav className={style.hamburguer}>
+                <nav className={style.hamburguer} onClick={hindleAside}>
                     <span></span>
                     <span></span>
                     <span></span>
                 </nav>
             </div>
+            
         </header>
     )
 }
